@@ -10,4 +10,4 @@
 このプログラムは *[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)* を使用しています。
 ## お願い
 このプログラムをあなたの言語に翻訳して共有してください。  
-**絶対に**翻訳したプログラムを`master`ブランチにコミットしないでください。新しいブランチ作ってね。
+**絶対に**翻訳したプログラムを`master`ブランチにコミットしないでください。新しいブランチ作ってね。例：`translated-en`
