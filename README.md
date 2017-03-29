@@ -1,5 +1,6 @@
 # moviedownloader
-This is a ShellScript tool to download Youtube and Niconico movies for Linux users who use Japanese.
+This is a ShellScript tool to download Youtube and Niconico movies for Linux users who use Japanese.  
+※日本語ユーザーはREADME-ja.mdを読んでね。
 ## this program will work on...
 * Ubuntu 16.04
 ## this program is using...
