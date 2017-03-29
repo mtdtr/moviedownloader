@@ -10,4 +10,5 @@ This is a ShellScript tool to download Youtube and Niconico movies for Linux use
 I'm not responsible for any result genelated by this program.  
 This program is using *[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)* .
 ## Please
-translate this program to your language, and share it.
+translate this program to your language, and share it.  
+**DO NOT** commit translated program as master branch, please!
