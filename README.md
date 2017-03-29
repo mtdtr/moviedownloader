@@ -11,4 +11,4 @@ I'm not responsible for any result genelated by this program.
 This program is using *[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)* .
 ## Please
 translate this program to your language, and share it.  
-**DO NOT** commit translated program as master branch. Please make new branch!
+**DO NOT** commit translated program as master branch. Please make new branch! example:`translated-en`
