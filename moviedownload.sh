@@ -1,12 +1,15 @@
 echo "起動中..."
-dpkg -l | grep -q nicovideo-dl
-# echo $?
-if [ $? = "1" ] ; then
+if [ ! -e /usr/bin/nicovideo-dl ] ; then
   echo "error:パッケージ [nicovideo-dl] がインストールされていません"
   echo "nicovideo-dl をインストールしますか?(y/n)"
   read nicodlis
   if [ $nicodlis = "y" ] ; then
-    sudo apt-get install nicovideo-dl
+    cd /tmp/
+    wget https://ja.osdn.net/dl/nicovideo-dl/nicovideo-dl-0.0.20120212.tar.gz
+    gzip -d nicovideo-dl-0.0.20120212.tar.gz
+    tar -xf nicovideo-dl-0.0.20120212.tar
+    cd nicovideo-dl-0.0.20120212
+    sudo cp nicovideo-dl /usr/bin
   fi
 else
   echo "*nicovideo-dl ready*"
