@@ -39,7 +39,7 @@ if [ $? = "1" ] ; then
     echo "*youtube-dl ready*"
   fi
 else
-  youtube-dl -U
+  sudo youtube-dl -U
   echo "*youtube-dl ready*"
 fi
 echo "起動完了"
