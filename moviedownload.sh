@@ -13,24 +13,33 @@ else
 fi
 dpkg -l | grep -q youtube-dl
 if [ $? = "0" ] ; then
-  dpkg -l | grep -q youtube-dl | grep -q rc
+#  echo "(debug)mode1"
+  dpkg -l | grep youtube-dl | grep -q rc
   if [ $? = "0" ] ; then
+#    echo "(debug)mode2"
     echo "error:パッケージ [youtube-dl] がインストールされていません"
     echo "youtube-dl をインストールしますか?(y/n)"
     read y2ubedlis
     if [ $y2ubedlis = "y" ] ; then
-      sudo apt-get install youtube-dl
+      sudo wget https://yt-dl.org/latest/youtube-dl -O /usr/local/bin/youtube-dl
+      sudo chmod a+x /usr/local/bin/youtube-dl
+      hash -r
     fi
-fi
+  fi
 fi
 if [ $? = "1" ] ; then
+#  echo "(debug)mode4"
   echo "error:パッケージ [youtube-dl] がインストールされていません"
   echo "youtube-dl をインストールしますか?(y/n)"
   read y2ubedlis
   if [ $y2ubedlis = "y" ] ; then
-    sudo apt-get install youtube-dl
+    sudo wget https://yt-dl.org/latest/youtube-dl -O /usr/local/bin/youtube-dl
+    sudo chmod a+x /usr/local/bin/youtube-dl
+    hash -r
+    echo "*youtube-dl ready*"
   fi
 else
+  youtube-dl -U
   echo "*youtube-dl ready*"
 fi
 echo "起動完了"
