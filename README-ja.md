@@ -3,7 +3,7 @@
 ## 動作環境
 * [Ubuntu](https://www.ubuntu.com/) 16.04
 ## 使用しているプログラム
-* nicovideo-dl
+* [nicovideo-dl](http://sourceforge.jp/projects/nicovideo-dl/)
 * [youtube-dl](http://yt-dl.org/)
 ## 利用規約
 私はこのプログラムによって生まれた結果については責任を負いません。  
