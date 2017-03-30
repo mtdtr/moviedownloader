@@ -11,24 +11,7 @@ if [ $? = "1" ] ; then
 else
   echo "*nicovideo-dl ready*"
 fi
-dpkg -l | grep -q youtube-dl
-if [ $? = "0" ] ; then
-#  echo "(debug)mode1"
-  dpkg -l | grep youtube-dl | grep -q rc
-  if [ $? = "0" ] ; then
-#    echo "(debug)mode2"
-    echo "error:パッケージ [youtube-dl] がインストールされていません"
-    echo "youtube-dl をインストールしますか?(y/n)"
-    read y2ubedlis
-    if [ $y2ubedlis = "y" ] ; then
-      sudo wget https://yt-dl.org/latest/youtube-dl -O /usr/local/bin/youtube-dl
-      sudo chmod a+x /usr/local/bin/youtube-dl
-      hash -r
-    fi
-  fi
-fi
-if [ $? = "1" ] ; then
-#  echo "(debug)mode4"
+if [ ! -e /usr/local/bin/youtube-dl ] ; then
   echo "error:パッケージ [youtube-dl] がインストールされていません"
   echo "youtube-dl をインストールしますか?(y/n)"
   read y2ubedlis
