@@ -3,7 +3,7 @@ This is a ShellScript tool to download Youtube and Niconico movies for Linux use
 **※日本語ユーザーはREADME-ja.mdを読んでね。**
 ## How to use?
 1. Install `Python2` (If you haven't installed it)
-2. Type 'sudo /bin/sh ./moviedownloader.sh' on Command Line.
+2. Type `sudo /bin/sh ./moviedownloader.sh` on Command Line.
 ## Tested on...
 Maybe 'movie downloader' only works on **Linux systems**.  
 * [Linux Mint](https://linuxmint.com) 18.1
