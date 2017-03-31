@@ -14,13 +14,13 @@ if [ ! -e /usr/bin/nicovideo-dl ] ; then
 else
   echo "*nicovideo-dl ready*"
 fi
-if [ ! -e /usr/local/bin/youtube-dl ] ; then
+if [ ! -e /usr/bin/youtube-dl ] ; then
   echo "error:パッケージ [youtube-dl] がインストールされていません"
   echo "youtube-dl をインストールしますか?(y/n)"
   read y2ubedlis
   if [ $y2ubedlis = "y" ] ; then
-    sudo wget https://yt-dl.org/latest/youtube-dl -O /usr/local/bin/youtube-dl
-    sudo chmod a+x /usr/local/bin/youtube-dl
+    sudo wget https://yt-dl.org/latest/youtube-dl -O /usr/bin/youtube-dl
+    sudo chmod a+x /usr/bin/youtube-dl
     hash -r
     echo "*youtube-dl ready*"
   fi
