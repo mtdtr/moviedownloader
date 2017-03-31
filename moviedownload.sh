@@ -46,5 +46,5 @@ elif [ $cont = "n" ] ; then
   echo ""
   echo "ダウンロードする動画のURLを入力してください(http:// から)"
   read url
-  python2 nicovideo-dl $url
+  python2 /usr/bin/nicovideo-dl $url
 fi
