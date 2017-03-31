@@ -7,6 +7,7 @@ This is a ShellScript tool to download Youtube and Niconico movies for Linux use
 ## Tested on...
 * [Linux Mint](https://linuxmint.com) 18.1
 * [Ubuntu](https://ubuntu.com) 16.10
+* [Debian](http://www.debian.org) 8.7
 ## this program is using...
 * [nicovideo-dl](http://sourceforge.jp/projects/nicovideo-dl/)
 * [youtube-dl](http://yt-dl.org/)
