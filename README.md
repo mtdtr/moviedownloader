@@ -2,9 +2,11 @@
 This is a ShellScript tool to download Youtube and Niconico movies for Linux users who use Japanese.  
 **※日本語ユーザーはREADME-ja.mdを読んでね。**
 ## How to use?
-Type 'sudo /bin/sh ./moviedownloader.sh' on Command Line.
+1. Install `Python2` (If you haven't installed it)
+2. Type 'sudo /bin/sh ./moviedownloader.sh' on Command Line.
 ## Tested on...
 * [Linux Mint](https://linuxmint.com) 18.1
+* [Ubuntu](https://ubuntu.com) 16.10
 ## this program is using...
 * [nicovideo-dl](http://sourceforge.jp/projects/nicovideo-dl/)
 * [youtube-dl](http://yt-dl.org/)
