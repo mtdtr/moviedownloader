@@ -1,7 +1,9 @@
 # moviedownloader
 これは、日本語を使用するLinuxユーザー向けにYoutubeおよびNiconicoムービーをダウンロードするShellScriptツールです。
-## 動作環境
-* [Ubuntu](https://www.ubuntu.com/) 16.04
+## 使い方
+コマンドライン上で、'sudo /bin/sh ./moviedownload.sh' を実行します。
+## テスト済み
+* [Linux Mint](https://linuxmint.com) 18.1
 ## 使用しているプログラム
 * [nicovideo-dl](http://sourceforge.jp/projects/nicovideo-dl/)
 * [youtube-dl](http://yt-dl.org/)
