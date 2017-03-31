@@ -7,6 +7,7 @@
 * [Linux Mint](https://linuxmint.com) 18.1
 * [Ubuntu](https://ubuntu.com) 16.10
 * [Debian](http://www.debian.org) 8.7
+* [CentOS Linux](http://centos.org/) 7
 ## 使用しているプログラム
 * [nicovideo-dl](http://sourceforge.jp/projects/nicovideo-dl/)
 * [youtube-dl](http://yt-dl.org/)
