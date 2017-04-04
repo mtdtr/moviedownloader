@@ -1,10 +1,13 @@
 # moviedownloader
 これは、日本語を使用するLinuxユーザー向けにYoutubeおよびNiconicoムービーをダウンロードするShellScriptツールです。
 ## 使い方
+#### 動画をダウンロードする
 1. `Python2` をインストールします 
 2. コマンドライン上で、`sudo /bin/sh ./moviedownload.sh` を実行します。
+#### アンインストールする
+1. `/bin/sh ./uninst.sh` を実行します。
 ## テスト済み
-おそらく 'movie downloader' は**Linuxシステム**でのみ動作します。
+おそらく movie downloader は**Linuxシステム**でのみ動作します。
 * [Linux Mint](https://linuxmint.com) 18.1
 * [Ubuntu](https://ubuntu.com) 16.10
 * [Debian](http://www.debian.org) 8.7
